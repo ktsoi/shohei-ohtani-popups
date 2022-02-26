@@ -1,0 +1,22 @@
+{
+    "name": "Get Inspired with Shohei Ohtani!",
+    "description": "Get fit with Shoehei Ohtani, be happy.",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "background": {
+        "service_worker": "background.js"
+      },
+    "permissions": ["storage", "activeTab", "scripting", "tabs"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/image1.png"
+        }
+    },
+    "icons": {
+        "16": "/images/image1.png"
+    },
+    "options_page": "options.html"
+
+  }
